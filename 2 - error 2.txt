@@ -1,0 +1,8 @@
+live_loop :ThunderousWindySounds do
+  sample :ambi_swoosh, rate: 0.25, amp: 1
+  ##| sleep 64
+  sleep 8
+  sample :ambi_swoosh, rate: -0.25, amp: -0.25
+  ##| sleep 64
+  sleep 8
+end
